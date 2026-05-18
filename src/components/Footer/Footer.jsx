@@ -22,10 +22,10 @@ export default function Footer() {
           <div className="footer-group">
             <h4>Socials</h4>
             <div className="social-icons">
-              <a href="https://github.com/abdulazeesshaik" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <a href="https://github.com/Shaik-Abdul-Azees" target="_blank" rel="noreferrer" aria-label="GitHub">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com/in/abdulazeesshaik" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/shaik-abdul-azeez-6ba9502b9/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
               </a>
               <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter">

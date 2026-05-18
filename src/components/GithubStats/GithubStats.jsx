@@ -9,7 +9,7 @@ export default function GithubStats() {
   const [loading, setLoading] = useState(true);
 
   // Using real GitHub username if available, or fallback
-  const username = 'abdulazeesshaik'; 
+  const username = 'Shaik-Abdul-Azees'; 
 
   useEffect(() => {
     const fetchStats = async () => {

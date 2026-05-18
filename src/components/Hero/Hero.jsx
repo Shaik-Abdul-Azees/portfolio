@@ -69,10 +69,10 @@ export default function Hero() {
           </div>
 
           <div className="hero-socials">
-            <a href="https://github.com/abdulazeesshaik" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-link">
+            <a href="https://github.com/Shaik-Abdul-Azees" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-link">
               <FaGithub size={20} />
             </a>
-            <a href="https://linkedin.com/in/abdulazeesshaik" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link">
+            <a href="https://www.linkedin.com/in/shaik-abdul-azeez-6ba9502b9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link">
               <FaLinkedin size={20} />
             </a>
             <a href="https://leetcode.com/abdulazeesshaik" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" className="social-link">
