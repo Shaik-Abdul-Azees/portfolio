@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import {
-  SiReact, SiMui, SiNodedotjs, SiExpress, SiMongodb
+  SiReact, SiMui, SiNodedotjs, SiExpress, SiMongodb, SiPython, SiOpencv,
+  SiTensorflow, SiFlask, SiTailwindcss,
 } from 'react-icons/si';
 import './Projects.css';
 
@@ -52,6 +53,52 @@ const projects = [
     github: 'https://github.com/Shaik-Abdul-Azees',
     demo: '#',
     color: '#8b5cf6',
+  },
+  {
+    id: 3,
+    title: 'Driver Drowsiness Detection System',
+    description:
+      'An AI-powered computer vision system that monitors driver alertness in real time via webcam. Combines eye aspect ratio analysis and yawn detection with a Flask web dashboard to trigger audio alerts before fatigue leads to accidents.',
+    tags: ['AI'],
+    techStack: [
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'OpenCV', icon: <SiOpencv /> },
+      { name: 'TensorFlow', icon: <SiTensorflow /> },
+      { name: 'Flask', icon: <SiFlask /> },
+    ],
+    features: [
+      'Simultaneous eye closure & yawn detection',
+      'MRL Eye Dataset–trained classification model',
+      'Real-time webcam video processing',
+      'Flask dashboard with audio alert system',
+    ],
+    github: 'https://github.com/Shaik-Abdul-Azees/DriverDrowsinessDetectionSystem',
+    demo: '#',
+    color: '#10b981',
+  },
+  {
+    id: 4,
+    title: 'DevInspect AI',
+    description:
+      'A full-stack AI code review and security audit platform with automated inspections, Monaco editor workbench, split-diff fix suggestions, contextual AI chat, audit history, and PDF export for compliance reporting.',
+    tags: ['AI'],
+    techStack: [
+      { name: 'React.js', icon: <SiReact /> },
+      { name: 'Node.js', icon: <SiNodedotjs /> },
+      { name: 'Express.js', icon: <SiExpress /> },
+      { name: 'MongoDB', icon: <SiMongodb /> },
+      { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+      { name: 'Gemini AI', icon: null },
+    ],
+    features: [
+      'AST-based security & quality analysis',
+      'Monaco editor with split-diff viewer',
+      'GitHub import & drag-and-drop file upload',
+      'Audit history, sharing & PDF export',
+    ],
+    github: 'https://github.com/Shaik-Abdul-Azees',
+    demo: '#',
+    color: '#0ea5e9',
   },
 ];
 
