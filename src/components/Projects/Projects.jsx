@@ -97,7 +97,7 @@ const projects = [
       'Audit history, sharing & PDF export',
     ],
     github: 'https://github.com/Shaik-Abdul-Azees',
-    demo: '#',
+    demo: 'https://dev-inspect-ai.vercel.app/',
     color: '#0ea5e9',
   },
 ];
