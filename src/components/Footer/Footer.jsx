@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 import './Footer.css';
 
 export default function Footer() {
@@ -17,6 +18,7 @@ export default function Footer() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
+            <a href="#achievements">Achievements</a>
           </div>
           
           <div className="footer-group">
@@ -28,8 +30,8 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/shaik-abdul-azeez-6ba9502b9/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
               </a>
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="Twitter">
-                <FaTwitter />
+              <a href="https://leetcode.com/u/abdulazeezshaik/" target="_blank" rel="noreferrer" aria-label="LeetCode">
+                <SiLeetcode />
               </a>
             </div>
           </div>

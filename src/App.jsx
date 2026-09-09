@@ -4,10 +4,10 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
-
+import Achievements from './components/Achievements/Achievements';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import './App.css'; // You can remove this line if App.css is no longer needed
+import './App.css';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-
+        <Achievements />
         <Contact />
       </main>
       <Footer />

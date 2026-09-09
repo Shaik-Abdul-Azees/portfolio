@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import { FiArrowRight, FiDownload } from 'react-icons/fi';
+import { FiArrowRight, FiDownload, FiEye } from 'react-icons/fi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import profileImg from '../../assets/photo.png';
@@ -58,13 +58,23 @@ export default function Hero() {
               <FiArrowRight />
             </a>
             <a
-              href="/Abdul_Azees_Resume.pdf"
-              download
+              href="/rrr.pdf"
+              download="rrr.pdf"
               className="btn btn-outline"
               id="hero-download-resume"
             >
               <FiDownload />
               <span>Download Resume</span>
+            </a>
+            <a
+              href="/rrr.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+              id="hero-view-resume"
+            >
+              <FiEye />
+              <span>View Resume</span>
             </a>
           </div>
 
@@ -75,7 +85,7 @@ export default function Hero() {
             <a href="https://www.linkedin.com/in/shaik-abdul-azeez-6ba9502b9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link">
               <FaLinkedin size={20} />
             </a>
-            <a href="https://leetcode.com/abdulazeesshaik" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" className="social-link">
+            <a href="https://leetcode.com/u/abdulazeezshaik/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" className="social-link">
               <SiLeetcode size={20} />
             </a>
           </div>

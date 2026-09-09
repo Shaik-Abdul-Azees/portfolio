@@ -34,7 +34,7 @@ export default function About() {
               fundamentals with hands-on <strong>full-stack web development</strong>.
             </p>
             <p className="about-description">
-              Having solved <strong>300+ problems on LeetCode</strong> and <strong>100+ on GeeksforGeeks</strong>, and built
+              Having solved <a href="https://leetcode.com/u/abdulazeezshaik/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-light)', textDecoration: 'underline' }}>300+ problems on LeetCode</a> and <strong>100+ on GeeksforGeeks</strong>, and built
               production-grade MERN applications, I thrive on turning complex
               problems into elegant, scalable solutions. Currently exploring
               <strong> AI/ML</strong> to build intelligent systems that make a
